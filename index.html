@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sudoku Solver</h1>
+        <p>Enter your Sudoku puzzle below (use 0 for empty cells)</p>
+        
+        <div class="puzzle-container">
+            <div id="sudoku-grid" class="sudoku-grid"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="solve-btn" class="btn solve-btn">Solve Puzzle</button>
+            <button id="clear-btn" class="btn clear-btn">Clear Puzzle</button>
+            <button id="sample1-btn" class="btn sample-btn">Load Sample 1</button>
+            <button id="sample2-btn" class="btn sample-btn">Load Sample 2</button>
+        </div>
+        
+        <div id="solution-container" class="solution-container">
+            <h2>Solution:</h2>
+            <div id="solution-grid" class="sudoku-grid"></div>
+        </div>
+        
+        <div id="message" class="message"></div>
+        
+        <div class="info">
+            <h3>About this Solver</h3>
+            <p>This Sudoku solver is implemented in x86-64 assembly language using recursive backtracking algorithm.</p>
+            <p>To use the assembly version directly, run the provided batch files after installing NASM and MinGW-w64.</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

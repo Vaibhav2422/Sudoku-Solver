@@ -1,0 +1,19 @@
+{
+  "name": "sudoku-solver-frontend",
+  "version": "1.0.0",
+  "description": "Web frontend for the Sudoku Solver assembly project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "sudoku",
+    "solver",
+    "assembly",
+    "nasm",
+    "x86-64"
+  ],
+  "author": "Onkar Gawade",
+  "license": "MIT"
+}
